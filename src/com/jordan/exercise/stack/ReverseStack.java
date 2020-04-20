@@ -36,4 +36,19 @@ public class ReverseStack {
         reverse(stack);
         stack.push(i);
     }
+
+    public static void main(String[] args) {
+        ReverseStack reverseStack = new ReverseStack();
+        Stack<Integer> stack = new Stack<>();
+        stack.add(2);
+        stack.add(1);
+        stack.add(4);
+        stack.add(-9);
+        stack.add(2);
+        stack.add(0);
+        reverseStack.reverse(stack);
+        for (Integer i : stack) {
+            System.out.println(i);
+        }
+    }
 }
