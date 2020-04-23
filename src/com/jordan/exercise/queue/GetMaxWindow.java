@@ -1,5 +1,6 @@
 package com.jordan.exercise.queue;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 /**
